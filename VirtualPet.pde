@@ -4,33 +4,35 @@ void setup() {
 
 void draw() {
 
-  // body
-fill(0, 0, 0);
+
+  
+// body
+fill(255, 255, 255);
 noStroke();
 ellipse(250, 250, 170, 200);
 
 // tail
-fill(0, 0, 0);
+fill(255, 255, 255);
 noStroke();
 triangle(165, 248, 250, 350, 120, 350);
 
 // top flipper
-fill(0, 0, 0);
+fill(255, 255, 255);
 noStroke();
 ellipse(120, 335, 50, 18);
 
 // bottom flipper
-fill(0, 0, 0);
+fill(255, 255, 255);
 noStroke();
 ellipse(120, 350, 50, 18);
 
-fill(0, 0, 0);
+fill(255, 255, 255);
 // left arm
 noStroke();
 ellipse(165, 248, 80, 30);
 
 // right arm
-fill(0, 0, 0);
+fill(255, 255, 255);
 noStroke();
 ellipse(300, 325, 80, 30);
 
