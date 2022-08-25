@@ -2,10 +2,12 @@ void setup() {
   size(500, 500);
   // background(210, 244, 247);
   background(201, 215, 240);
+  // smooth(3);
+
 }
 
 void draw() {
-
+  
 // body
 fill(255, 255, 255);
 noStroke();
@@ -86,6 +88,7 @@ arc(240, 255, 20, 20, 0, PI);
 
 
 // whisker??
+
 strokeWeight(2);
 line(295, 250, 315, 245);
 line(295, 260, 315, 265);
@@ -93,5 +96,15 @@ line(295, 260, 315, 265);
 line(205, 250, 185, 245);
 line(205, 260, 185, 265);
 
+// background
+  noStroke();
+  fill(182, 202, 237);
+  rect(0, 0, 500, 100);
+  
+  fill(255,255, 255);
+  noStroke();
+  triangle(300, 10, 350, 100, 250, 100);
+  triangle(360, 30, 410, 100, 310, 100);
 
 }
+
